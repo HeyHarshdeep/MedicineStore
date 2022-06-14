@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Notes</th>
+        <th scope="col">Expiry Date</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Brand</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of medicines">
+        <th scope="row">{{item.name}}</th>
+        <td>{{item.notes}}</td>
+        <td>{{item.expiryDate}}</td>
+        <td>{{item.quantity}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.brand}}</td>
+      </tr>
+    </tbody>
+  </table>

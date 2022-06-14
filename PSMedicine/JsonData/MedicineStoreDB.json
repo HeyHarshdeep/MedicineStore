@@ -1,0 +1,36 @@
+{
+  "Medicines": [
+    {
+      "Name": "Abacavir",
+      "Notes": "After meal",
+      "ExpiryDate": "2025-04-23 18:25:43.511Z",
+      "Quantity": 3000,
+      "Price": 125.25,
+      "Brand": "Ranbaxy"
+    },
+    {
+      "Name": "Acyclovir",
+      "Notes": "Before meal",
+      "ExpiryDate": "2025-04-23 18:25:43.511Z",
+      "Quantity": 300,
+      "Price": 35,
+      "Brand": "Ranbaxy"
+    },
+    {
+      "Name": "Alendronate",
+      "Notes": "After meal",
+      "ExpiryDate": "2026-04-23 18:25:43.511Z",
+      "Quantity": 560,
+      "Price": 12.00,
+      "Brand": "Abraxane"
+    },
+    {
+      "Name": "Allopurinol",
+      "Notes": "After meal",
+      "ExpiryDate": "2027-04-23 18:25:43.511Z",
+      "Quantity": 907,
+      "Price": 999999.50,
+      "Brand": "Abraxane"
+    }
+  ]
+}  
