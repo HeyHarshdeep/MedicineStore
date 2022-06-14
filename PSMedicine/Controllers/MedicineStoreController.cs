@@ -20,6 +20,10 @@ namespace PSMedicine.Controllers
             _configuration = configuration;
         }
 
+        /// <summary>
+        /// Get All Medicine
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetMedicine")]
         public ActionResult GetMedicine()
         {
@@ -33,6 +37,11 @@ namespace PSMedicine.Controllers
             return Ok(new ResponseViewModel { Data = medicinesViewModel.Medicines, Message = "Here is your data", Status = true });
         }
 
+        /// <summary>
+        /// Search as you type
+        /// </summary>
+        /// <param name="search"></param>
+        /// <returns></returns>
         [HttpGet("Search")]
         public ActionResult Search(string search)
         {
